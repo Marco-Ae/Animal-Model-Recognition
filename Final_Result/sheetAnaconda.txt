@@ -1,0 +1,15 @@
+conda create -n tf2.10-gpu python=3.8
+
+conda activate tf2.10-gpu
+
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1
+
+pip install tensorflow==2.10.0
+
+
+
+
+
+
+
+conda env remove -n py3.10
