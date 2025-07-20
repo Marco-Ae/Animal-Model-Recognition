@@ -19,3 +19,7 @@ Struttura del progetto:
     
 6) Infine, presenta un grafico che riconosce gli animali predetti, e quelli veri.
 
+Considerazioni:
+
+Modello ha un totale di 220.745 parametri.
+
