@@ -1,4 +1,4 @@
-# 🔢 Importazione delle librerie necessarie
+# Importazione delle librerie necessarie
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras import layers, models
@@ -41,3 +41,4 @@ class preprocessing:
         self.y_test_cat = tf.keras.utils.to_categorical(self.y_test_label, num_classes)
         return self.y_train_cat,  self.y_test_cat
                 
+
