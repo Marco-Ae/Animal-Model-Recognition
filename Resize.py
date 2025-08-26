@@ -22,15 +22,3 @@ class Path:
 
             #resized_img.save(rf"{save_path}\{file}") #solo su windows, perche lo \ e per il path di windows crea problemi su altri OPSys
             #(Operative system)
-
-#     /\     /\
-#    {  `---'  }
-#    {  O   O  }
-#    ~~>  V  <~~
-#     \  \|/  /
-#      `-----'____
-#      /  V   \    \_
-#     {       }\  )_\_   
-#     |  \_/  |/ /  \_\  
-#      \__/  /(_/     \)
-#        (__/
