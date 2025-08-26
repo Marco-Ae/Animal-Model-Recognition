@@ -1,4 +1,4 @@
-# 🔢 Importazione delle librerie necessarie
+# Importazione delle librerie necessarie
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras import layers, models
@@ -64,3 +64,4 @@ class Model:
 
 
         # Usiamo i dati di test per vedere se il modello generalizza bene
+
