@@ -58,8 +58,9 @@ class Model:
         return y_pred_scaled
 
     def evaluation (self, x_test, y_pred_cat):
-        # ✅ Valutazione sul test set
+        # Valutazione sul test set
         test_loss, test_acc = self.model.evaluate(x_test, y_pred_cat)
         return f"Test accuracy: {test_acc:.2f}, \n Test loss: {test_loss:.2f}"
+
 
         # Usiamo i dati di test per vedere se il modello generalizza bene
